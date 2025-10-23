@@ -18,7 +18,7 @@ When creating a new <i>Project</i> the <i> Data Manager </i> displays a list of 
 
 Adding a new <i>Tool</i> to the <i>Project</i> creates a new <i>Data Node </i> under the appropriate <i>Tool Type</i>.
 The <i> Data Manager </i> view of the
-<a href="https://simtk.org/frs/download_confirm.php/file/5113/DemoProject.zip?group_id=930"> Demo Project </a>
+<a href="https://simtk.org/frs/download_confirm.php/file/7077/DemoProject.zip?group_id=930"> Demo Project </a>
 created following the steps demonstrated in the <a href="#tutorial"> Tutorial</a> section is shown in Fig. 7.
 
 <figure>

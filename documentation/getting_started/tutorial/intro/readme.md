@@ -52,6 +52,6 @@ This section demonstrates how to use the SimVascular image-based modeling pipeli
 </ol> -->
 
 <br>
-The <a href="https://simtk.org/frs/download_confirm.php/latestzip/2256/SimVascularTutorialProject-latest.zip?group_id=930"> SimVascular Tutorial Project </a>
+The <a href="https://simtk.org/frs/download_confirm.php/file/7094/New%20Tutorial%20Project.zip?group_id=930"> SimVascular Tutorial Project </a>
 is a complete SimVascular project containing the data created by each of these steps. It also includes a <i>OSMSC0110-aorta</i> directory 
 containing DICOM image data used in the tutorial.

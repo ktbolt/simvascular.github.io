@@ -33,7 +33,7 @@ provides an interface to interactively manage adding/removing <i>Tool</i> instan
 display the geometric data created by a <i>Tool</i> (e.g. color).
 
 The <i> Data Manager </i> view of the
-<a href="https://simtk.org/frs/download_confirm.php/file/5113/DemoProject.zip?group_id=930"> Demo Project </a>
+<a href="https://simtk.org/frs/download_confirm.php/file/7077/DemoProject.zip?group_id=930"> Demo Project </a>
 created following the steps demonstrated in the tutorial section is shown in Fig. 3.
 
 <figure>

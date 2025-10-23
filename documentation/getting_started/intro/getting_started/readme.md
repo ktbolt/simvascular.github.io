@@ -25,5 +25,5 @@ Another useful resource for learning how to use SimVascular are the
 of recent videos demonstrate all the steps in the modeling pipeline presented in the <a href="#tutorial"> Tutorial</a> below.
 
 Images taken of the
-<a href="https://simtk.org/frs/download_confirm.php/file/5113/DemoProject.zip?group_id=930"> Demo Project </a>
+<a href="https://simtk.org/frs/download_confirm.php/file/7077/DemoProject.zip?group_id=930"> Demo Project </a>
 are used to illustrate certain concepts throughout this document.
