@@ -1,13 +1,13 @@
 ### Run svZeroDSolver from the command line
 
 svZeroDSolver can be executed from the command line using a JSON configuration
-file.
+file. In this case we will use the test case ```steadyFlow_RLC_R.json```. Once you have cloned the svZeroDSolver Github repository and built svZeroDSolver, navigate to the top level of the svZeroDSolver repository and run the following command.
 
 ```bash
 svzerodsolver tests/cases/steadyFlow_RLC_R.json result_steadyFlow_RLC_R.csv
 ```
 
-The result will be written to a CSV file.
+The result will be written to a CSV file at the path specified.
 
 ### Run svZeroDSolver from other programs
 
@@ -28,7 +28,7 @@ in the test cases at `svZeroDSolver/tests/test_interface`.
 #### In Python
 
 Please make sure that
-you installed svZerodSolver via pip to enable this feature. We start by
+you have installed svZerodSolver via pip to enable this feature. We start by
 importing pysvzerod:
 
 ```python
@@ -36,7 +36,7 @@ importing pysvzerod:
 ```
 
 Next, we create a solver from our configuration. The configuration can
-be specified by either a path to a JSON file:
+be specified by either a path to a JSON file. In this case we are using the test case ```steadyFlow_RLC_R.json```. if you have are running this code from the top level of the svZeroDSolver directory, use the following path. Otherwise, adjust the path to reflect the directory you are currently in.
 
 ```python
 >>> solver = pysvzerod.Solver("tests/cases/steadyFlow_RLC_R.json")
@@ -45,11 +45,12 @@ be specified by either a path to a JSON file:
 or as a Python dictionary:
 
 ```python
->>> my_config = {...}
+>>> import json
+>>> my_config = json.load(open("tests/cases/steadyFlow_RLC_R.json"))
 >>> solver = pysvzerod.Solver(my_config)
 ```
 
-To run the simulation we add:
+To run the simulation we run:
 
 ```python
 >>> solver.run()

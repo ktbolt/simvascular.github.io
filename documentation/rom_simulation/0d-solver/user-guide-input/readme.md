@@ -16,11 +16,13 @@ The top-level structure of both is:
 In the following sections, the individual categories are described in more
 detail.
 
+Examples of how blocks may be specified in a json configuration file can be found within each block's respective class documentation [here](https://simvascular.github.io/svZeroDSolver/annotated.html)
+
 #### Simulation parameters
 
 The svZeroDSolver can be configured with the following options in the
 `simulation_parameters` section of the input file. Parameters without a
-default value must be specified.
+default value must be specified. an example of the simulation parameters in a json configuration file can be found [here](https://simvascular.github.io/svZeroDSolver/struct_simulation_parameters.html)
 
 |Parameter key                                  | Description                                                 | Default value |
 |-----------------------------------------------|------------------------------------------------------------ | --------------|
