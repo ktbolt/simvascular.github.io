@@ -85,5 +85,3 @@ The keys inside an `external_solver_coupling_block` control how a 3D boundary ex
 | `connected_block` &emsp; | Yes &emsp; | `name` of the svZeroDSolver boundary condition or block that supplies the coupled data. |
 | `periodic` &emsp; | Optional &emsp; | Set `true` if the provided waveform should repeat when the 3D solver requests multiple cycles. |
 | `values` &emsp; | Yes &emsp; | Populated by the solver for data handling between 3D and 0D simulation, leave at default values {"t": [0.0, 1.0], "Q": [1.0, 1.0]} |
-
-#### Troubleshooting
