@@ -18,8 +18,6 @@ The <i>svZeroDSolver Interface Subsection </i> is organized as follows
 The <strong>svZeroDSolver_interface</strong> keyword activates coupling for boundary conditions with the 
 &lt;<strong>Time_dependence</strong>&gt; Coupled &lt;<strong>&#47;Time_dependence</strong>&gt; keyword for the enclosing equation coupled boundary condition.
 
-The value of <i>svzerodsolver_interface_name</i> can be any string name and is not currently used.
-
 <!-- ------------------------------------------- -->
 <!-- ---- svZeroDSolver_interface parameters --- -->
 <!-- ------------------------------------------- -->
